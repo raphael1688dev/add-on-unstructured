@@ -1,0 +1,16 @@
+name: "Unstructured API"
+version: "1.0.2"
+slug: "unstructured_api"
+description: "Local Unstructured.io API (Persistent Storage)."
+url: "https://github.com/Unstructured-IO/unstructured-api"
+arch:
+  - amd64
+  - aarch64
+ports:
+  8000/tcp: 8000
+map:
+  - config:rw
+init: false
+options: {}
+schema: {}
+startup: application
